@@ -15,7 +15,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <StackPanel Orientation="Horizontal">
-                <Button Width="84" Background="#2b8a00" Margin="10,0">添加域名</Button>
+                <Button Width="84" Background="#2b8a00" Margin="10,0" ToolTip="点击这里开始 添加新域名">添加域名</Button>
                 <Button Width="84" Margin="10,0">暂停</Button>
                 <Button Width="84" Margin="10,0">启用</Button>
                 <Button Width="84" Margin="10,0">删除</Button>

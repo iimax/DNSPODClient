@@ -4,6 +4,14 @@
              xmlns:local="clr-namespace:DNSPODClient"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/Styles.Shared.xaml"/>
+                <ResourceDictionary Source="Styles/Styles.WPF.xaml"/>
+                <ResourceDictionary Source="Styles/Theme.Colors.xaml"/>
+                <ResourceDictionary Source="Styles/Metro.MSControls.Core.Implicit.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Color x:Key="WindowBackgroundColor">#FFE1E1E1</Color>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
